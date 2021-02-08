@@ -1,5 +1,5 @@
 {
-  "name": "nativeui",
+  "name": "@coldseattle/nativeui",
   "version": "1.0.0",
   "description": "dark/light mode toggle",
   "main": "index.js",
