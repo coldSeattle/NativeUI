@@ -1,0 +1,110 @@
+/* this is not UI library, 
+this is design pattern for team that need organize yourself variables
+and would have one code style for scss vars settins for UI modes.
+
+*/
+
+/*  
+    the system of class-naming-for-dark/light properties 
+
+    first level:
+    @L: the default properties for light mode
+    @D: the default properties for dark mode
+
+    second level:
+    @T: text color
+    @B: background color
+    
+    @example: $LT: #fff; 'light mode text color'
+    @example: $DTB: #000; 'dark mode text background color'
+
+    with tag should be like that:
+    for example we want color for input and i tags..
+
+    for i tag
+    @example: $LIB: ...; 'light i tag background'
+    @example: $LInputattrPHT: ...; 'light mode input tag placeholder attribute text color'
+
+    third level:
+    customize properties
+    @example: $LTgr1: #c7c7c7; 
+    L - light
+    T- text
+    gr - gray  (light lowercase and use two letters)
+    1 - if use an several gray custom colors - one numeration for know what of the gray color will be used
+    so the 1 is in the example - #c7c7c7; and 2 - for example could be #e5e5e5(ligher gray) and so on.
+*/
+
+/* ----------------------- light ----------------------- */
+
+//text color vars 
+
+$LT: #000000 !default;
+
+//Shades of gray
+
+$Lgreen1: #c7c7c7 !default;
+$Lgreen2: #e5e5e5 !default;
+$Lgreen3: #9c9c9c !default;
+$Lgreen4: #f4f6f8 !default;
+$Lgreen5: #c9d1d3 !default;
+
+// container background color 
+
+$LB: #ffffff !default;
+$LBnone: transparent !default;
+
+// input tag
+
+$LInputT: #0000 !default;
+$LInputattrPH: $LTgr1 !default;
+
+
+// colors pallette
+
+$Lgreen: #42b883 !default;
+$Llime: #B6E6BD !default;
+$LOceanBlue: #64c4ed !default;
+$LPink: #ffbbcc !default;
+$LGreenLight: #b6e6bd !default;
+$LRed: #ff6464 !default;
+$LPurple: #c355f5 !default;
+$LBlack: #09011a !default;
+
+
+
+/* ----------------------- dark ----------------------- */
+
+//text color vars 
+
+$DT: #fff !default;
+
+//Shades of gray
+
+$Dgreen1: #c7c7c7 !default;
+$Dgreen2: #e5e5e5 !default;
+$Dgreen3: #9c9c9c !default;
+$Dgreen4: #f4f6f8 !default;
+$Dgreen5: #c9d1d3 !default;
+
+// container background color 
+
+$DB: #ffffff !default;
+$DBnone: transparent !default;
+
+// input tag
+
+$DInputT: #fff !default;
+$DInputattrPH: $LTgr1 !default;
+
+
+// colors pallette
+
+$Lgreen: #42b883 !default;
+$Llime: #B6E6BD !default;
+$LOceanBlue: #64c4ed !default;
+$LPink: #ffbbcc !default;
+$LGreenLight: #b6e6bd !default;
+$LRed: #ff6464 !default;
+$LPurple: #c355f5 !default;
+$LBlack: #09011a !default;

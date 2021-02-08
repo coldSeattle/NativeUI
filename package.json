@@ -1,0 +1,35 @@
+{
+  "name": "nativeui",
+  "version": "1.0.0",
+  "description": "dark/light mode toggle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coldSeattle/NativeUI.git"
+  },
+  "keywords": [
+    "CSS",
+    "JS",
+    "React",
+    "SCSS",
+    "UI"
+  ],
+  "author": "coldseattl@mail.ru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coldSeattle/NativeUI/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@coldseattle"
+  },
+  "homepage": "https://github.com/coldSeattle/NativeUI#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "react-responsive": "^8.2.0",
+    "react-toggle": "^4.1.1"
+  }
+}

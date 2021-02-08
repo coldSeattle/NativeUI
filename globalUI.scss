@@ -1,0 +1,129 @@
+@import './variables.scss';
+
+:root {
+    //text color vars 
+
+    --LT: #{$LT};
+
+    //Shades of gray
+
+    --Lgreen1: #{$Lgreen1};
+    --Lgreen2: #{$Lgreen2};
+    --Lgreen3: #{$Lgreen3};
+    --Lgreen4: #{$Lgreen4};
+    --Lgreen5: #{$Lgreen5};
+
+    // container background color 
+
+    --LB: #{$LB};
+    --LBnone: #{$LBnone};
+
+    // input tag
+
+    --LInputT: #{$LInputT};
+    --LInputattrPH: #{$Lgreen5};
+
+
+    // colors pallette
+
+    --Lgreen:#{$Lgreen};
+    --Llime:#{$Llime};
+    --LOceanBlue:#{$LOceanBlue};
+    --LPink:#{$LPink};
+    --LGreenLight:#{$LGreenLight};
+    --LRed:#{$LRed};
+    --LPurple: #{$LPurple};
+    --LBlack: #{$LBlack};
+}
+
+html {
+    //text color vars 
+
+    --LT: #{$LT};
+
+    //Shades of gray
+
+    --Lgreen1: #{$Lgreen1};
+    --Lgreen2: #{$Lgreen2};
+    --Lgreen3: #{$Lgreen3};
+    --Lgreen4: #{$Lgreen4};
+    --Lgreen5: #{$Lgreen5};
+
+    // container background color 
+
+    --LB: #{$LB};
+    --LBnone: #{$LBnone};
+
+    // input tag
+
+    --LInputT: #{$LInputT};
+    --LInputattrPH: #{$Lgreen5};
+
+
+    // colors pallette
+
+    --Lgreen:#{$Lgreen};
+    --Llime:#{$Llime};
+    --LOceanBlue:#{$LOceanBlue};
+    --LPink:#{$LPink};
+    --LGreenLight:#{$LGreenLight};
+    --LRed:#{$LRed};
+    --LPurple: #{$LPurple};
+    --LBlack: #{$LBlack};
+
+    transition: all 0.4s ease;
+    // background-color: #e5e5e5;
+}
+
+@media (prefers-color-scheme: dark) {
+    html.dark {
+        //text color vars 
+
+        --DT: #{$DT};
+
+        //Shades of gray
+
+        --Dgreen1: #{$Dgreen1};
+        --Dgreen2: #{$Dgreen2};
+        --Dgreen3: #{$Dgreen3};
+        --Dgreen4: #{$Dgreen4};
+        --Dgreen5: #{$Dgreen5};
+
+        // container background color 
+
+        --DB: #{$DB};
+        --DBnone: #{$DBnone};
+
+        // input tag
+
+        --DInputT: #{$DInputT};
+        --DInputattrPH: #{$Dgreen5};
+
+
+        // colors pallette
+
+        --Dgreen:#{$Dgreen};
+        --Dlime:#{$Dlime};
+        --DOceanBlue:#{$DOceanBlue};
+        --DPink:#{$DPink};
+        --DGreenLight:#{$DGreenLight};
+        --DRed:#{$DRed};
+        --DPurple: #{$DPurple};
+        --DBlack: #{$DBlack};
+
+        // background-color: #130d21;
+    }
+}
+
+.react-toggle-track-check,
+.react-toggle-track-x {
+    margin-top: 11px;
+}
+
+.react-toggle-track-check {
+    margin-left: -5px;
+}
+
+.react-toggle-track-x {
+    margin-right: 5px;
+}
